@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "MySql": {
+      "type": "MySql.local",
+      "connectionId": "ConnectionStrings:PHTRSContext"
+    }
+  }
+}

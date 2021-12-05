@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>I:\PHTRS</_PublishTargetUrl>
+    <History>True|2021-12-05T06:20:06.9870233Z;True|2021-12-05T14:04:59.7715336+08:00;True|2021-12-05T13:05:59.6510786+08:00;True|2021-12-05T12:59:38.8411749+08:00;False|2021-12-02T22:07:01.2881044+08:00;True|2021-12-02T21:33:10.6544715+08:00;True|2021-12-02T21:22:05.4263013+08:00;True|2021-12-02T21:04:23.6095209+08:00;True|2021-12-02T20:46:34.9244459+08:00;True|2021-12-02T20:46:16.6737375+08:00;True|2021-12-02T20:44:33.7776920+08:00;True|2021-12-02T20:33:50.2645660+08:00;True|2021-12-02T20:31:24.8296527+08:00;True|2021-12-02T19:56:10.3705631+08:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="PHTRSContext">
+      <Value>Server=localhost%3bDatabase=PHTRS_server%3bUid=root%3bPwd=SCUThjy123.%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="PHTRS.Data.PHTRSContext">
+      <Value>Server=localhost%3bDatabase=PHTRS_server%3bUid=root%3bPwd=SCUThjy123.%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
