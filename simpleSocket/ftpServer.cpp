@@ -126,7 +126,7 @@ void handleFunc(int accpetfd, char* buffer){
         return;
     }
     if(commandVector[0]=="del"){
-        if(access(commandVector[1].c_str(),F_OK)==0){
+        if(access(commandVector[1].c_str(),F_OK)!=0){
             strcpy(buffer, "Error: File may not exist");
             send(accpetfd,buffer,MAXLINE,0);
             cerr<<"Error: File may not exist"<<endl;
